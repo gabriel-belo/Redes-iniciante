@@ -65,3 +65,39 @@ Mesmo que todos os segmentos  tenham largura de banda alta, basta um seh=gmento 
 Largura de Banda → Potencial máximo da rede.
 
 Taxa de Transferência → Velocidade real da transmissão de dados.
+
+<h1>Módulo 2- Componentes, tipos e conexões de rede</h1>
+<h2>2.1 Clientes e Servidores</h2>
+<h4>2.1.2 Funções de Clientes e servidores</h4>
+
+Todos os computadores conectados a uma rede que participam diretamente da comunicação de rede são classificados como hosts. Os hosts podem enviar e receber mensagem na rede. Nas redes modernas, os hosts podem atuar como cliente, servidor ou ambos. O software instalado no computador determina qual seu papel na rede.
+
+Servidores são hosts que têm um software instalado mque os permite fornecer informações. Cada serviço exige um software de servidor separado. Por exemplo, um servidor exige um software  de servidor Web para fornecer serviços web à rede. 
+
+Clientes são computadores host que têm um software instalado que os permite solicitar e exibir as informações obtidas do servidor. Um exemplo de software cliente é um navegador Web, como Internet Explorer, Safari, Mozilla Firefox.
+
+<h4>Redes Ponto-a-Ponto</h4>
+Em pequenas empresas e em casas, muitos computadores funcionam como servidores e clientes de rede. Esse tipo de rede é chamado de rede ponto a ponto (P2P).
+
+A rede ponto-a-ponto mais simples consiste wm dois computadores diretamente conectados por uma conexão com ou sem fio. Ambos os computadores podem usar essa rede simples para trocar dados e serviços entre si, atuando como cliente ou servidor conforme necessário.
+
+Vários PCs também podem ser conectados para criar uma rede ponto-a-ponto maior, mais isso exige um dispositivo de rede (como um switch) para interconectar os computadores.
+A principal desvantagem de um ambiente ponto-a-ponto é que o desempenho de um host pode ser reduzido se ele estiver atuando como cliente e servidor ao mesmo tempo. 
+
+Vantagens da rede ponto-a-ponto:
+<ul>
+  <li>Fácil de configurar</li>
+  <li>Menos complexo</li>
+  <li>Menos custo porque os dispositivos de rede e servidores dedicados podem não ser necessários</li>
+  <li>Pode ser usada para tarefas simples como transferir arquivos e compartilhar impressoras</li>
+</ul>
+
+As desvantagens das redes ponto-a-ponto:
+<ul>
+  <li>Nenhuma administração centralizada</li>
+  <li>Não é tão segura</li>
+  <li>Não é escalável</li>
+  <li>Pode ter um desempenho mais lento, pois os computadores podem trabalhar como cliente e servidor. </li>
+</ul>
+
+<h4>2.1.4 Aplicações ponto-a-ponto</h4> 
