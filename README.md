@@ -68,11 +68,17 @@ Taxa de Transferência → Velocidade real da transmissão de dados.
 
 <h1>Módulo 2- Componentes, tipos e conexões de rede</h1>
 <h2>2.1 Clientes e Servidores</h2>
+<h4>2.1.1 Clientes e Servidores</h4>
+Uma máquina pode ser cliente, servidor ou ambos, o que define sua funcionalidade é o software instalado.
+
+A máquina cliente tem softwares instalados que possibilitam fazer requisições e mostrar as informações e a máquina Server é um host que possui softwares que possibilitam a ele passar informações para outros hosts, exemplos de infirmações email, páginas web entre outros, cada função necessita de um software específico.
+
 <h4>2.1.2 Funções de Clientes e servidores</h4>
 
-Todos os computadores conectados a uma rede que participam diretamente da comunicação de rede são classificados como hosts. Os hosts podem enviar e receber mensagem na rede. Nas redes modernas, os hosts podem atuar como cliente, servidor ou ambos. O software instalado no computador determina qual seu papel na rede.
+Todos os computadores conectados a uma rede que participam diretamente da comunicação de rede(é o processo de troca de informações entre dispositivos conectados em uma rede) são classificados como hosts. Os hosts podem enviar e receber mensagem na rede. Nas redes modernas, os hosts podem atuar como cliente, servidor ou ambos. O software instalado no computador determina qual seu papel na rede.
 
-Servidores são hosts que têm um software instalado mque os permite fornecer informações. Cada serviço exige um software de servidor separado. Por exemplo, um servidor exige um software  de servidor Web para fornecer serviços web à rede. 
+
+Servidores são hosts que têm um software instalado que os permite fornecer informações. Cada serviço exige um software de servidor separado. Por exemplo, um servidor exige um software  de servidor Web para fornecer serviços web à rede. 
 
 Clientes são computadores host que têm um software instalado que os permite solicitar e exibir as informações obtidas do servidor. Um exemplo de software cliente é um navegador Web, como Internet Explorer, Safari, Mozilla Firefox.
 
@@ -82,6 +88,26 @@ Em pequenas empresas e em casas, muitos computadores funcionam como servidores e
 A rede ponto-a-ponto mais simples consiste wm dois computadores diretamente conectados por uma conexão com ou sem fio. Ambos os computadores podem usar essa rede simples para trocar dados e serviços entre si, atuando como cliente ou servidor conforme necessário.
 
 Vários PCs também podem ser conectados para criar uma rede ponto-a-ponto maior, mais isso exige um dispositivo de rede (como um switch) para interconectar os computadores.
+
+<h4>O que é um dispositivo de rede</h4>
+Um dispostivo de rede é qualquer equipamento que participa da comunicação de uma rede de computadores, seja transmitindo, recebendo ou direcionando dados.
+<h5>Principais Dispositivos de rede:</h5>
+<ul>
+  <li>Modem- Conecta a rede local à internet.</li>
+  <li>Roteador- Distribui a conexão entre dispositivos via WI-FI ou cabo.</li>
+  <li>Switch- Expande a rede cabeada e melhora a comunicação entre dispositivos.</li>
+  <li>Access Point(AP)- Amplia o sinal Wi-Fi.</li>
+  <li>Firewall- Protege a rede contra acessos não autorizados.</li>
+  <li>Servidor- Armazena e gerencia dados acessados por outro dispositivo</li>
+</ul>
+
+<h5>Como funciona o Switch:</h5>
+<ol>
+  <li>Um dispositivo envia dados ao switch.</li>
+  <li>O switch lê o endereço MAC de destino.</li>
+  <li>Ele encaminha os dados diretamente para o dispositivo correto, sem sobrecarregar os outros.</li>
+</ol>  
+
 A principal desvantagem de um ambiente ponto-a-ponto é que o desempenho de um host pode ser reduzido se ele estiver atuando como cliente e servidor ao mesmo tempo. 
 
 Vantagens da rede ponto-a-ponto:
@@ -101,3 +127,4 @@ As desvantagens das redes ponto-a-ponto:
 </ul>
 
 <h4>2.1.4 Aplicações ponto-a-ponto</h4> 
+
